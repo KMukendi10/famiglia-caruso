@@ -2,7 +2,7 @@
 
 :root {
   --cream: #f4ecdc;
-  --cream-dark: #ece1cc;
+  --cream-dark: #dfd3bd;
   --red: #e1251b;
   --ink: #2a2724;
   --muted: #5b554d;
@@ -110,6 +110,7 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
   grid-template-columns: 1fr 1.2fr 1.4fr;
   align-items: stretch;
   gap: 0;
+  border-top: 1px solid var(--cream-dark);
 }
 .story .text-block { padding: 28px 28px; align-self: center; }
 
