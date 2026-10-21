@@ -257,6 +257,7 @@ body.no-scroll { overflow: hidden; }
 
 /* hero */
 .logo { transition: transform .3s ease; cursor: default; transform-origin: left center; }
+.logo img { width: 100%; max-width: 270px; height: auto; object-fit: contain; }
 .logo:hover { transform: rotate(-2deg) scale(1.03); }
 .meta dd { transition: color .2s, padding-left .2s; }
 .meta dd:hover { color: var(--red); padding-left: 4px; }
